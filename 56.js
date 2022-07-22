@@ -21,6 +21,13 @@ const users = [
     {firstName: "rinkon", age: 34}
 ];
 
+//map method
+const newUser = users.map((item, index) => {
+    return item.age;
+});
+
+console.log(newUser);
+
 // console.log(users);
 users.forEach(function(value, index) {
     console.log(value.age);
