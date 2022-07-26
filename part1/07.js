@@ -28,3 +28,8 @@ let firstName = "harshit";
 
 let newString = firstName.slice(1); // hars
 console.log(newString);
+
+//demo test
+let subject1 = "physics";
+let value = subject1.slice(1,3);
+console.log(value);

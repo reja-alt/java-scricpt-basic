@@ -1,30 +1,31 @@
-//sets
+// Sets (it is iterable)
+// store data  
+// sets also have its own methods
+// No index-based access 
+// Order is not guaranteed
+// unique items only (no duplicates allowed)
+// const items = ['item1', 'item2', 'item3'];
+// const numbers = new Set();
+// numbers.add(1);
+// numbers.add(2);
+// numbers.add(3);
+// numbers.add(4);
+// numbers.add(5);
+// numbers.add(6);
+// numbers.add(items);
+// if(numbers.has(1)){
+//     console.log("1 is present")
+// }else{
+//     console.log("1 is not present")
+// }
+// for(let number of numbers){
+//     console.log(number);
+// }
+// const myArray = [1,2,4,4,5,6,5,6];
+// const uniqueElements = new Set(myArray);
+// let length = 0;
+// for(let element of uniqueElements){
+//     length++;
+// }
 
-const numbers = new Set();
-const numbersOnly = new Set([32,545,65]);
-
-numbers.add(32);
-numbers.add(5);
-numbers.add(8);
-numbers.add(87);
-numbers.add(82);
-
-const fruits = ['apple', 'mango', 'pine apple'];
-const object = { key1: "value1", key2: "value2"};
-
-numbers.add("demo");
-numbers.add(fruits);
-numbers.add(object);
-
-if(numbers.has(object)) {
-    console.log('exists');
-} else {
-    console.log('not exists');
-}
-numbers.add(fruits);
-console.log(numbers);
-console.log(numbers[2]);
-
-for(let item of numbers) {
-    console.log(item);
-}
+// console.log(length);
